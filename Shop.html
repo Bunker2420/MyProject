@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruthwick Store</title>
+    <link rel="stylesheet" href="fixed.css" class="css">
+    <link rel="stylesheet" href="moving.css" class="css">
+</head>
+<body style="padding-top: 120px; height: 5000px;">
+    <div>
+        <div style="position: fixed; height: 120px; display: grid; grid-template-rows: 20px 100px;">
+            <div class="welcome-message">Welcome to Ruthwick Store....</div>
+            <div class="fixed-div">
+                <div><img src="h1.png" class="logo-image"></div>
+                <div style="display: grid; grid-template-columns: 1fr 62px;">
+                    <div style="width: 800px; height: 40px;">
+                        <input class="search-bar" type="text" placeholder="Search">
+                    </div>
+                    <div style="width: 45px; height: 42px;">
+                        <button class="search-button"><img class="search-icon" src="search-icon.png"></button>
+                    </div>
+                </div>
+                <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr;">
+                    <div><a href="orders.html" class="header-link"><span class="returns-text">Returns</span> <span class="orders-text">& Orders</span></a></div>
+                    <div><a class="header-link" href="checkout.html"><img class="cart-icon" src="cart-icon.png"><div id="cart-quantity" class="cart-quantity js-cart-quantity">0</div><div class="cart-text">Cart</div></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="products-grid js-products-grid">
+         
+        </div>
+      </div>
+   
+    
+    <script src="shop.js" type="module"></script>  
+</body>
+</html>

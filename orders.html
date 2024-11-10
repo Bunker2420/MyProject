@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="od.css" class="css">
+    <link rel="stylesheet" href="nxt.css" class="css">
+</head>
+<body style="height: 5000px;">
+    <div class="fixed-div">
+        <div>
+            <img src="h1.png" class="logo-image">
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 62px;">
+            <div style="width: 800px; height: 40px;">
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+            <div style="width: 45px; height: 42px;">
+                <button class="search-button">
+                    <img class="search-icon" src="search-icon.png">
+                </button>
+            </div>
+        </div>
+        <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr;">
+            <div>
+                <a href="orders.html" class="header-link">
+                    <span class="returns-text">Returns</span>
+                    <span class="orders-text">& Orders</span>
+                </a>
+            </div>
+            <div>
+                <a class="header-link" href="checkout.html">
+                    <img class="cart-icon" src="cart-icon.png">
+                    <div class="cart-quantity">3</div>
+                    <div class="cart-text">Cart</div>
+                </a>
+            </div>   
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="page-title">Your Orders</div>
+
+        <div class="orders-grid">
+            <!-- Orders will be dynamically rendered here -->
+        </div>
+    </div>
+
+    <script src="orders.js" type="module"></script>
+</body>
+</html>
