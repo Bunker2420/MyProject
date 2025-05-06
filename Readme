@@ -1,0 +1,15 @@
+Ruthwick Shop is a project I built as part of my full-stack development journey, inspired by the Amazon UI. It was created to sharpen my skills in HTML, CSS, and JavaScript through hands-on development.
+
+This project features a beautifully styled and fully responsive:
+
+🏠 Home Page
+
+📦 Order Page
+
+🧾 Checkout Page
+
+🚚 Order Tracking Page
+
+Using JavaScript, I implemented dynamic features such as payment calculations, real-time updates, and basic form handling to simulate an e-commerce experience. The focus was on building clean layouts, smooth UI transitions, and understanding DOM manipulation and events.
+
+Ruthwick Shop represents my first step into creating interactive, user-focused web applications, and lays the foundation for my transition into full-stack development.
